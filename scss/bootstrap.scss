@@ -1,0 +1,54 @@
+// Font
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+//Colors
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
+
+//Navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+
+//Buttons
+$custom-btn-radius: 50px;
+$custom-btn-padding-x: 30px;
+$custom-btn-padding-y: 10px;
+
+$btn-border-radius: $custom-btn-radius;
+$btn-border-radius-sm: $custom-btn-radius;
+$btn-border-radius-lg: $custom-btn-radius;
+
+$btn-padding-x: $custom-btn-padding-x;
+$btn-padding-x-sm: $custom-btn-padding-x;
+$btn-padding-x-lg: $custom-btn-padding-x;
+
+$btn-padding-y: $custom-btn-padding-y;
+$btn-padding-y-sm: $custom-btn-padding-y;
+$btn-padding-y-lg: $custom-btn-padding-y;
+
+//Navbar
+$navbar-toggler-border-radius: 5px; //stops hamburg icon from becoming circle.
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+$headings-margin-bottom: $spacer * 1;
+$line-height-base: 1.7;
+
+$enable-negative-margins:true;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
